@@ -1,0 +1,12 @@
+## Interface: 30000
+## Title: Broker: CombatLog Toggle
+## Notes: Toggles the combatlog frame
+## Author: Quaiche
+## Version: 1.0
+## X-License: Apache 2.0 - see included LICENSE.txt
+## X-Category: Miscellaneous
+
+LibStub.lua
+CallbackHandler-1.0.lua
+LibDataBroker-1.1.lua
+Broker_CombatLogToggle.lua
