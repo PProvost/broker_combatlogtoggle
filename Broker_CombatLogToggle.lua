@@ -20,7 +20,7 @@ limitations under the License.
 
 LibStub("LibDataBroker-1.1"):NewDataObject("CombatLogToggle", {
 	type = "launcher",
-	icon = [[Interface\Icons\Ability_Defend]],
+	icon = [[Interface\Icons\INV_Weapon_ShortBlade_01]],
 	OnClick = function()
 		if not COMBATLOG then 
 			DEFAULT_CHAT_FRAME:AddMessage("ERROR - COMBATLOG frame does not exist.")
