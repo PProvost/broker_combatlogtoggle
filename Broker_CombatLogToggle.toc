@@ -1,4 +1,4 @@
-## Interface: 30100
+## Interface: 30200
 ## Title: Broker: CombatLog Toggle
 ## Notes: Toggles the combatlog frame
 ## Author: Quaiche
