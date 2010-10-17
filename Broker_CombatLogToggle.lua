@@ -26,10 +26,13 @@ LibStub("LibDataBroker-1.1"):NewDataObject("CombatLogToggle", {
 			DEFAULT_CHAT_FRAME:AddMessage("ERROR - COMBATLOG frame does not exist.")
 			return
 		end
+		local tab = _G[COMBATLOG:GetName().."Tab"]
 		if COMBATLOG:IsVisible() then
 			COMBATLOG:Hide()
+			tab:Hide()
 		else
 			COMBATLOG:Show()
+			tab:Show()
 		end
 	end
 })
